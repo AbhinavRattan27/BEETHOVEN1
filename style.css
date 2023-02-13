@@ -1,3 +1,6 @@
+
+
+
 body{
     background-image: url(4219053.webp);
     background-repeat: no-repeat;
@@ -40,4 +43,22 @@ text-shadow: azure 0.5px 0.5px 0.5px;
    position: absolute;
    top: 20%;
    left: 40%;
+}
+@media only screen and (max-width:600px) {
+    .img1{
+        width:500px;
+        height:700px;
+        
+        }
+        .mainh1{
+            color: WHITE;
+            font-size:3.8em;
+            margin-left:120px;
+            text-shadow: azure 3.5px 3px 4px;
+        }
+        .para-div{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+         }
 }
